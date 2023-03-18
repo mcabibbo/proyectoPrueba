@@ -1,0 +1,433 @@
+/* vamos a ver 3 selectores de etiquetas
+
+.selector de clases{
+    propiedad: valor;
+    propìedad:valor;
+}
+#selector de id{
+    propiedad: valor;
+    propìedad:valor;
+}
+*/
+
+/*imports
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,400;1,100;1,300&display=swap');
+*/
+
+@font-face {
+    font-family: "Labrada" ;
+    src: url(../assets/Fuentes/Labrada-Italic-VariableFont_wght.ttf);
+}
+
+/*selector universal*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Labrada', serif;   
+}
+
+******************************************************************************************************************************************************************************************************
+
+/*INDEX PRINCIPAL*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Labrada', serif;   
+}
+/*estilados del header*/
+ header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+ }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.listaNavegacion{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.linkNav{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+/*estilados section principal index*/
+.sectionPrincipalIndex{
+   
+    font-size: 20px;
+
+}
+
+
+.h3Principal{
+    text-align: center;
+    font-size: 30px;
+    position: static;
+}
+
+.fotosPrepararViaje{
+    text-align: center;
+    font-size: 20px;    
+}
+.header_Stickly{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    padding: 10px;
+    position: sticky;
+    top: 00px;
+}
+
+
+/*Body de la seccion Principal*/
+ body{ 
+    margin: 0;
+ }
+ 
+ 
+
+ /*esta clase tien color principal de la pagina */
+ .colorFondoPrincipal{
+    background-color: coral;
+ }
+
+ main{
+    background-color: white;
+    height: 100vh;/*unidades de medidas reelativas - se adopta a su contenedor*/
+ }
+ .imagenDeFondoPrincipal{
+    height: 20vh;
+    background-image: url(../assets/imagenes/paisajee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ /*
+ .box{
+    background-color: aquamarine;
+    width: 50%;/*unidades de medidas reelativas - se adopta a su contenedor
+    height: 50%;
+    margin: 10px;
+    font-size: 1rem; 
+}
+*/
+
+****************************************************************************************************************************************
+
+/*DESTINOS*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Labrada', serif;   
+}
+.logoD{
+    display: flex;
+    align-items: center;
+}
+.logoD img{
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+    .listanavegacionD{
+        list-style: none;
+        margin: 10px;
+    }
+    .linkNavD{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+/*Body de la seccion destinos*/
+
+/*esta clase tiene color principal de la pagina */
+.colorFondoPrincipalD{
+   background-color:coral
+}
+
+li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+/**Main de la seccion de destinos*/
+
+
+.box{
+   background-color: aquamarine;
+   width: 50%;/*unidades de medidas reelativas - se adopta a su contenedor*/
+   height: 50%;
+   margin: 10px;
+   font-size: 1rem; 
+}
+
+.imagenFondoDestinos{
+    height: 20vh;
+    background-image: url(../assets/imagenes/Vive\ una\ vida\ digna\ de\ ser\ vivida.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.galeria{
+     display: flex;
+     flex-wrap: wrap;
+     height: 90vh;
+     width: 70%;
+     margin: 0 auto;
+}
+
+.galeria div img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;  
+}
+
+.galeria div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.videoDestinos{
+   
+    
+}*/
+
+*******************************************************************************************************************************************************************************
+
+/*COMUNIDAD*/
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Labrada', serif;   
+}
+
+
+.colorFondoPrincipalC{
+    background-color: rgb(170, 80, 255);
+}
+
+.logoC{
+    display: flex;
+    align-items: center;
+}
+.logoC img{
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.listaNavegacionC{
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.linkNavC{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.h1Comunidad{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: white;
+
+}
+.imagenH1Comunidad{
+    background-image: url(../assets/imagenes/Vive\ una\ vida\ digna\ de\ ser\ vivida.png);
+    height: 30vh;
+    text-align: center;
+}
+.h2Comunidad{
+    text-align: center;
+}
+.galeriaComunidad{
+    display: flex;
+     flex-wrap: wrap;
+     height: 50vh;
+     width: 56%;
+     margin: 0 auto;
+}
+.galeriaComunidad div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galeriaComunidad div img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;  
+}
+
+
+********************************************************************************************************************************************************************************
+/*SERVICIOS*/
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Labrada', serif;   
+}
+
+.colorFondoPrincipalS{
+    background-color: rgb(170, 80, 255);
+}
+
+.logoS{
+    display: flex;
+    align-items: center;
+}
+.logoS img{
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.listaNavegacionS{
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.linkNavS{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.h1Servicios{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: white;
+
+}
+.imagenH1Servicios{
+    background-image: url(../assets/imagenes/Vive\ una\ vida\ digna\ de\ ser\ vivida.png);
+    height: 30vh;
+    text-align: center;
+}
+
+.galeriaServicios{
+    display: flex;
+     flex-wrap: wrap;
+     height: 50vh;
+     width: 56%;
+     margin: 0 auto;
+}
+.galeriaServicios div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galeriaServicios div img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;  
+}
+
+.h2Servicios{
+    text-align: center;
+}
+
+
+********************************************************************************************************************************************************************************
+
+/*CONTACTANOS*/
+
+/*Header de la seccion de contacto*/
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+ }
+
+.logoCs{
+    display: flex;
+    align-items: center;
+}
+.logoCs img{
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+    .listanavegacionCs{
+        list-style: none;
+        margin: 10px;
+    }
+    .linkNavCs{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+/*Body de la seccion contacto*/
+
+/*esta clase tiene color principal de la pagina */
+.colorFondoPrincipalCs{
+   background-color: coral
+}
+
+
+.box{
+   background-color: aquamarine;
+   width: 50%;/*unidades de medidas reelativas - se adopta a su contenedor*/
+   height: 50%;
+   margin: 10px;
+   font-size: 1rem; 
+}
+
+
+
+
+
+
+ /*Main de la seccion contacto*/
+ .imagenDeFondo{
+    height: 80vh;
+    background-image: url(../assets/imagenes/Paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
